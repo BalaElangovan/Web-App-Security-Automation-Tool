@@ -1,0 +1,6 @@
+cd /etc/ssh/sshd_config
+
+FROM:
+#PermitRootLogin prohibit-password
+TO:
+PermitRootLogin yes
