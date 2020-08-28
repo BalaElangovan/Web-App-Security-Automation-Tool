@@ -125,6 +125,27 @@ cd JSFScan.sh/
 chmod +x install.sh
 ./install.sh
 
+echo -e "installing Jsparser \n"
+git clone https://github.com/nahamsec/JSParser.git
+cd JSParser/
+pip3 install -r requirments.txt
+python setup.py install
 
 
 echo "END"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
