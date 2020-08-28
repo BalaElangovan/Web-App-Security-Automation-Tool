@@ -1,0 +1,18 @@
+1. (safeurl.py)
+* Import StringIO ==> import io
+
+2. (safeurl.py)
+* response = StringIO.StringIO() ==> response = io.BytesIO()
+
+3. (safeurl.py)
+* return response.getvalue() ==> return response.getvalue().decode('utf-8')
+
+4. (setup.py)
+tornado ==> tornado<=5.1
+
+5. (handler.py)
+urlparse ==> urllib.parse
+
+6.(handler.py)
+
+from cgi import escape ==> from html import escape
