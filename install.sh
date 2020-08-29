@@ -132,6 +132,14 @@ pip3 install -r requirments.txt
 python setup.py install
 
 
+echo -e "Installing GF \n"
+go get -u github.com/tomnomnom/gf
+cp -r /root/go-workspace/src/github.com/tomnomnom/gf/examples/ ~/.gf
+
+cd tools/ParamSpider/gf_profiles/
+mv potential.json redirect.json wordpress.json xss.json ~/.gf/
+
+
 echo "END"
 
 
