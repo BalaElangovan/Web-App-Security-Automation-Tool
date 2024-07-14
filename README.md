@@ -47,3 +47,9 @@ This reconmachine.sh script is automated to look for common CVE, fuzzing, techno
 ./reconmachine.sh
 ```
 
+- Subdomain.sh
+
+- This automation script is used to perform subdomain enumeration, resolving the subdomains, categorizing the domains to be used in different tools, look in wayback and archived enumeration, and check for live urls. All the results will be moved into a different folder and classified as per the tasks performed for manual checking. This tool proves to be used widely to perform the fundamentals steps.
+```sh
+./subdomain.sh
+```
