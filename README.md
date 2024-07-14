@@ -30,3 +30,20 @@ cd Web-App-Security-Automation-Tool
    4. Build the tools as needed. 
 
 - During the installation process, the terminal will display each step to ensure all tasks are performed correctly.
+
+# 3. Usage
+
+- Dirsearch
+
+The dirsearch.sh script is designed to perform directory searches on web applications using different datasets. It helps in identifying common misconfigured directories or hidden directories that may be accessible. The values can be altered as per user requirements in the scripts but they are pre-defined for optimal performance. 
+```sh
+./dirsearch.sh
+```
+
+- Recon machine
+
+This reconmachine.sh script is automated to look for common CVE, fuzzing, technologies used, security misconfiguration, GitHub information disclosure,  request smuggling, domain live status checker and also perform subdomain enumeration. These recon scripts have a wide variety of use cases, This all can be altered as per user requirements but fine-tuned for optimal performance.
+```sh
+./reconmachine.sh
+```
+
