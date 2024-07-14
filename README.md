@@ -29,6 +29,4 @@ cd Web-App-Security-Automation-Tool
 
    4. Build the tools as needed. 
 
-- Follow the terminal output:
-  
-During the installation process, the terminal will display each step to ensure all tasks are performed correctly.
+- During the installation process, the terminal will display each step to ensure all tasks are performed correctly.
